@@ -1,1 +1,9 @@
 Untuk Run program API menggunakan command : dotnet watch run
+
+commit to GitHub:
+
+git status
+git add .
+git status
+git commit -m "Tugas Minggu 3"
+git push -u origin main
