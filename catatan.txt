@@ -8,3 +8,4 @@ git status
 git commit -m "Tugas Minggu 3"
 git pull
 git push -u origin main
+
