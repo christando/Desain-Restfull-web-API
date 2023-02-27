@@ -2,9 +2,12 @@ Untuk Run program API menggunakan command : dotnet watch run
 
 commit to GitHub:
 
-git status
-git add .
-git status
-git commit -m "Tugas Minggu 3"
-git pull
-git push -u origin main
+git status >> cek status file, branch dan perubahan di lokal
+git add . >> Menandai Perubahan
+git status >> cek status file, branch dan perubahan di lokal
+git commit -m "Message" >> Menyimpan di Lokal
+git pull >> Mengambil perubahan dari server git ke lokal
+git push -u origin main >> menyimpan perubahan dari lokal ke server
+git branch >> mengetahui semua branch yang ada
+
+git checkout hashcode
