@@ -1,0 +1,7 @@
+C:\Users\ASUS\Downloads\Compressed\Desain-Restfull-web-API-main_2\Desain-Restfull-web-API-main\BookStoreApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.csproj.AssemblyReference.cache
+C:\Users\ASUS\Downloads\Compressed\Desain-Restfull-web-API-main_2\Desain-Restfull-web-API-main\BookStoreApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Downloads\Compressed\Desain-Restfull-web-API-main_2\Desain-Restfull-web-API-main\BookStoreApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.AssemblyInfoInputs.cache
+C:\Users\ASUS\Downloads\Compressed\Desain-Restfull-web-API-main_2\Desain-Restfull-web-API-main\BookStoreApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.AssemblyInfo.cs
+C:\Users\ASUS\Downloads\Compressed\Desain-Restfull-web-API-main_2\Desain-Restfull-web-API-main\BookStoreApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Downloads\Compressed\Desain-Restfull-web-API-main_2\Desain-Restfull-web-API-main\BookStoreApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ASUS\Downloads\Compressed\Desain-Restfull-web-API-main_2\Desain-Restfull-web-API-main\BookStoreApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.MvcApplicationPartsAssemblyInfo.cache

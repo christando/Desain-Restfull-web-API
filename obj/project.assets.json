@@ -10713,11 +10713,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WEBAPI\\TodoApi\\TodoApi.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\TodoApi.csproj",
       "projectName": "TodoApi",
-      "projectPath": "D:\\WEBAPI\\TodoApi\\TodoApi.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\TodoApi.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\WEBAPI\\TodoApi\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
