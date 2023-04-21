@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\TodoApi.csproj": {}
+    "D:\\WEBAPI\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\TodoApi.csproj": {
+    "D:\\WEBAPI\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\TodoApi.csproj",
+        "projectUniqueName": "D:\\WEBAPI\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\TodoApi.csproj",
+        "projectPath": "D:\\WEBAPI\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Downloads\\Compressed\\Desain-Restfull-web-API-main_2\\Desain-Restfull-web-API-main\\obj\\",
+        "outputPath": "D:\\WEBAPI\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

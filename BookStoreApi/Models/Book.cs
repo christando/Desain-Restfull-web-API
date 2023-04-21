@@ -1,11 +1,13 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System.Text.Json.Serialization;
 
 namespace BookStoreApi.Models;
 
 public class Book
 {
     [BsonId]
+    [JsonPropertyName("Name")]
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
 
