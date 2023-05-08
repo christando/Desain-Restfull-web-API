@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {}
+    "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj": {}
   },
   "projects": {
-    "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {
+    "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
+        "projectUniqueName": "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj",
         "projectName": "BookStoreApi",
-        "projectPath": "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
+        "projectPath": "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\WEBAPI\\TodoApi\\BookStoreApi\\obj\\",
+        "outputPath": "D:\\WEBAPI\\BookStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.3, )"
