@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj": {}
+    "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {}
   },
   "projects": {
-    "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj": {
+    "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj",
+        "projectUniqueName": "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
         "projectName": "BookStoreApi",
-        "projectPath": "D:\\WEBAPI\\BookStoreApi\\BookStoreApi.csproj",
+        "projectPath": "D:\\WEBAPI\\TodoApi\\BookStoreApi\\BookStoreApi.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\WEBAPI\\BookStoreApi\\obj\\",
+        "outputPath": "D:\\WEBAPI\\TodoApi\\BookStoreApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

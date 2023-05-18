@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "d5b1e941-7329-42a1-8892-d82000c36eed",
+		"name": "DRWA2023",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26316653"
+	},
+	"item": [
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5007/api/Books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5007",
+					"path": [
+						"api",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Books",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"Id\": \"6442c056e5ea222c9128dbd7\",\r\n        \"Name\": \"Clean Code\",\r\n        \"Price\": 50.00,\r\n        \"Category\": \"Computers Basics\",\r\n        \"Author\": \"Robert C. Martin\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5007/api/Books/6442c056e5ea222c9128dbd7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5007",
+					"path": [
+						"api",
+						"Books",
+						"6442c056e5ea222c9128dbd7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Books",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Id\": \"\",\r\n  \"Name\": \"Introduction to Web API\",\r\n  \"Price\": 45.43,\r\n  \"Category\": \"Computer Basic\",\r\n  \"Author\": \"Robert C. Martin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5007/api/Books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5007",
+					"path": [
+						"api",
+						"Books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Books",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5007/api/Books/6458942152792c77ff7adb3d",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5007",
+					"path": [
+						"api",
+						"Books",
+						"6458942152792c77ff7adb3d"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

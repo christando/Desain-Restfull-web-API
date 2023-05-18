@@ -15,6 +15,8 @@ public class Book
     [JsonPropertyName("Name")]
     
     [StringLength(100, MinimumLength = 2)]
+    
+    [Required]
     public string BookName { get; set; } = null!;
     
     public decimal? Price { get; set; } = null!;

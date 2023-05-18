@@ -94,3 +94,10 @@ D:\WEBAPI\BookStoreApi\obj\Debug\net7.0\scopedcss\bundle\BookStoreApi.styles.css
 D:\WEBAPI\BookStoreApi\obj\Debug\net7.0\BookStoreApi.csproj.CopyComplete
 D:\WEBAPI\BookStoreApi\obj\Debug\net7.0\BookStoreApi.genruntimeconfig.cache
 D:\WEBAPI\BookStoreApi\obj\Debug\net7.0\ref\BookStoreApi.dll
+D:\WEBAPI\TodoApi\BookStoreApi\bin\Debug\net7.0\Postman\DRWA2023.postman_collection_Bookstore.json
+D:\WEBAPI\TodoApi\BookStoreApi\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+D:\WEBAPI\TodoApi\BookStoreApi\bin\Debug\net7.0\System.Web.Http.dll
+D:\WEBAPI\TodoApi\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\WEBAPI\TodoApi\BookStoreApi\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\WEBAPI\TodoApi\BookStoreApi\bin\Debug\net7.0\BookStoreApi.xml
+D:\WEBAPI\TodoApi\BookStoreApi\obj\Debug\net7.0\BookStoreApi.xml
