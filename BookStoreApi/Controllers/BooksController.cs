@@ -48,6 +48,7 @@ public class BooksController : ControllerBase
 /// <response code="404">Error Not Found</response>
 /// <response code="500">Internal Server Error</response>
     [HttpGet("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -90,6 +91,7 @@ public class BooksController : ControllerBase
 /// <response code="500">Internal Server Error</response>
 
     [HttpPost]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -140,6 +142,7 @@ public class BooksController : ControllerBase
 /// <response code="500">Internal Server Error</response>
 
     [HttpPut("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
@@ -187,6 +190,7 @@ public class BooksController : ControllerBase
 
     
     [HttpDelete("{id:length(24)}")]
+    [Authorize]
     [ProducesResponseType(StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
