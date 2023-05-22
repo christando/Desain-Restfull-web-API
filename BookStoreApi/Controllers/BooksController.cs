@@ -1,6 +1,7 @@
 using BookStoreApi.Models;
 using BookStoreApi.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using System.Net;
 using System.Net.Http;
 
@@ -18,6 +19,8 @@ public class BooksController : ControllerBase
 
     
     [HttpGet]
+    [Authorize]
+
     
     public async Task<List<Book>> Get() =>
         await _booksService.GetAsync();
