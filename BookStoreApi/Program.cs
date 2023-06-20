@@ -14,6 +14,29 @@ builder.Services.Configure<BookStoreDatabaseSettings>(
 
     builder.Services.AddSingleton<BooksService>();
 
+builder.Services.Configure<GuruDatabaseSettings>(
+    builder.Configuration.GetSection("GuruDatabase"));
+
+builder.Services.Configure<KelasDatabaseSettings>(
+    builder.Configuration.GetSection("KelasDatabase"));
+
+builder.Services.Configure<MapelDatabaseSettings>(
+    builder.Configuration.GetSection("MapelDatabase"));
+
+builder.Services.Configure<PresensiHarianGuruDatabaseSettings>(
+    builder.Configuration.GetSection("PresensiHarianGuruDatabase"));
+
+builder.Services.Configure<PresensiMengajarDatabaseSettings>(
+    builder.Configuration.GetSection("PresensiMengajarDatabase"));
+
+builder.Services.AddSingleton<BooksService>();
+builder.Services.AddSingleton<GuruService>();
+builder.Services.AddSingleton<KelasService>();
+builder.Services.AddSingleton<MapelService>();
+builder.Services.AddSingleton<PresensiHarianGuruService>();
+builder.Services.AddSingleton<PresensiMengajarService>();
+
+
 builder.Services.AddControllers();//.AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = null);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddAuthentication(options =>

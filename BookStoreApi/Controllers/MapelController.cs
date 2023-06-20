@@ -9,11 +9,11 @@ namespace BookStoreApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class BooksController : ControllerBase
+public class MapelController : ControllerBase
 {
     private readonly BooksService _booksService;
 
-    public BooksController(BooksService booksService) =>
+    public MapelController(BooksService booksService) =>
         _booksService = booksService;
 
 

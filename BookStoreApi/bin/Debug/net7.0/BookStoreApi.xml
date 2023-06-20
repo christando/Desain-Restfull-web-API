@@ -101,5 +101,393 @@
              <response code="404">Error Not Found</response>
              <response code="500">Internal Server Error</response>
         </member>
+        <member name="M:BookStoreApi.Controllers.KelasController.Get(System.String)">
+             <summary>
+             show a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.KelasController.Post(BookStoreApi.Models.Book)">
+             <summary>
+             Post a new BookStore Item .
+             </summary>
+             <returns>A newly created BookStore Item </returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+            
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.KelasController.Update(System.String,BookStoreApi.Models.Book)">
+             <summary>
+             Put a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.KelasController.Delete(System.String)">
+             <summary>
+             Deletes a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.MapelController.Get(System.String)">
+             <summary>
+             show a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.MapelController.Post(BookStoreApi.Models.Book)">
+             <summary>
+             Post a new BookStore Item .
+             </summary>
+             <returns>A newly created BookStore Item </returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+            
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.MapelController.Update(System.String,BookStoreApi.Models.Book)">
+             <summary>
+             Put a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.MapelController.Delete(System.String)">
+             <summary>
+             Deletes a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiHarianGuruController.Get(System.String)">
+             <summary>
+             show a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiHarianGuruController.Post(BookStoreApi.Models.Book)">
+             <summary>
+             Post a new BookStore Item .
+             </summary>
+             <returns>A newly created BookStore Item </returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+            
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiHarianGuruController.Update(System.String,BookStoreApi.Models.Book)">
+             <summary>
+             Put a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiHarianGuruController.Delete(System.String)">
+             <summary>
+             Deletes a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiMengajarController.Get(System.String)">
+             <summary>
+             show a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiMengajarController.Post(BookStoreApi.Models.Book)">
+             <summary>
+             Post a new BookStore Item .
+             </summary>
+             <returns>A newly created BookStore Item </returns>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+            
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiMengajarController.Update(System.String,BookStoreApi.Models.Book)">
+             <summary>
+             Put a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
+        <member name="M:BookStoreApi.Controllers.PresensiMengajarController.Delete(System.String)">
+             <summary>
+             Deletes a specific BookStore Item by using id.
+             </summary>
+             <param name="id"></param>
+             <remarks>
+             Sample request:
+            
+                 POST /Books
+                 {
+                    "id": "String",
+                    "name": "Books #1",
+                    "Price": 0,
+                    "Category": "Category #1", 
+                    "Author": "String"   
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response>
+             <response code="401">requires authentication</response>
+             <response code="404">Error Not Found</response>
+             <response code="500">Internal Server Error</response>
+        </member>
     </members>
 </doc>
